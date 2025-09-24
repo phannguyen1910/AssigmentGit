@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Nút Xin Chào</title>
+    <script>
+        function sayHello() {
+            document.getElementById("message").innerText = "Xin chào 👋";
+        }
+    </script>
+</head>
+<body>
+    <h2>Demo nút bấm</h2>
+    <button onclick="sayHello()">Nhấn để chào</button>
+    <p id="message"></p>
+</body>
 </html>
